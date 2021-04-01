@@ -11,9 +11,7 @@ import { BookService } from "./services/book.service";
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule, ReactiveFormsModule],
   declarations: [AppComponent, SideNavComponent, AddBookComponent],
-  providers: [
-    BookService
-  ]
+  providers: [BookService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
