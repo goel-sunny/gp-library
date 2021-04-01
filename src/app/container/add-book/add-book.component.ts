@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
-import { IBook } from "../../models/book.ui.model";
+import { IBook } from "../../models/ui-models/book.ui.model";
 import { FormGroup, FormControl } from "@angular/forms";
 import { BookService } from "../../services/book.service";
 
