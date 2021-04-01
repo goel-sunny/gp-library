@@ -1,0 +1,9 @@
+<div class="book-list-container">
+  <section class="book-list-container-search">
+    <input type="text" (input)="searchBook($event)" placeholder="Search Book">
+  </section>
+
+  <section class="book-list-container-list">
+    {{JSON.stringify(bookList)}}
+  </section>
+</div>

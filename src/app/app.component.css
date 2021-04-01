@@ -1,0 +1,24 @@
+header {
+  height: 50px;
+  border-bottom: 1px solid rgb(211, 205, 205);
+}
+
+main {
+  display: flex;
+  height: calc(100% - 100px);
+}
+
+aside {
+  flex: 1;
+  border-right: 1px solid rgb(211, 205, 205);
+}
+
+article {
+  flex: 9;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  border-top: 1px solid rgb(211, 205, 205);
+}

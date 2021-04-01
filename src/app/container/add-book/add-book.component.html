@@ -1,0 +1,25 @@
+<div class="add-book-container">
+  <form [formGroup]="bookDetailForm">
+    <div>
+      <label> Book Name :</label>
+      <input type="text" formControlName="bookName" >
+    </div>
+    <div>
+      <label> Book Description :</label>
+      <input type="text" formControlName="bookDescription">
+    </div>
+    <div>
+      <label> Book Count:</label>
+      <input type="number" formControlName="bookCount">
+    </div>
+    <div>
+      <label> Book Author:</label>
+      <input type="text" formControlName="bookAuthor">
+    </div>
+    <div>
+      <button (click)="addBook($event)"> Add  </button>
+      <button (click)="clearForm($event)"> Cancel </button>
+    </div>
+
+  </form>
+</div>

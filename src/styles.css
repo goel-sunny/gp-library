@@ -1,0 +1,16 @@
+/* Add application styles & imports to this file! */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+library-management-root {
+  height: 100%;
+  width: 100%;
+}
