@@ -24,7 +24,7 @@ export class ListBookComponent implements OnInit {
 
     this.searchBookRef = setTimeout(() => {
       this.bookList = this.bookList.filter(book => {
-        if (book.name.includes(event.target.value)) {
+        if (book.bookName.includes(event.target.value)) {
           return true;
         }
 
